@@ -1,0 +1,17 @@
+﻿h1{
+    color: red;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-shadow:1px 1px 5px black;}
+
+p{
+    width: 650px;
+    font-size: 18px;
+    font-family: verdana, arial, sans-serif;}
+
+.p1{
+    text-indent: 50px;
+    text-align: justify;}
+
+.p2{
+    font-family: 'Roboto', sans-serif;}

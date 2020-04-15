@@ -1,0 +1,40 @@
+﻿body{font-family: helvetce, sans-serif}
+
+a:link, a:visited{
+    color: black;
+    text-decoration: none;}
+
+a:hover{
+    text-decoration: underline;}
+
+.wrap{width: 960px;
+    margin: auto;
+    background: #5f676f;
+    padding: 10px 20px;}
+
+header nav ul li{
+    list-style: none;
+    padding-left: 0px;}
+
+header nav ul li{
+    display: inline;
+    margin-right: 10px;}
+
+header nav ul li a{
+    font: 18px;}
+
+.content{
+    float: left;
+    width: 660px;
+    background: red;}
+
+.sidebar{
+    float: right;
+    width: 300px;
+    background: blue;}
+
+.sidebar ul{
+    list-style: none;}
+
+footer{
+    clear: both;}

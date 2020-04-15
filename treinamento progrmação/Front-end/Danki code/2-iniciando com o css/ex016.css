@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.center{
+	max-width: 900px;
+	width: 90%;
+	margin: 0 auto;
+}
+.artigo{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 7%; 
+	padding-right: 7%;
+	background-color: #d1d1d1;
+	border-radius: 30px;
+	margin-bottom: 10PX;
+}
+.artigo > p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: tahoma;
+}
+.artigo > h1{
+	color: #0a5380;
+	/*text-shadow: 3px 3px 1px;*/
+}

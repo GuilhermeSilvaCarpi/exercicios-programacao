@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	min-height: 100%;
+}
+.box{
+	/*color: green;da a cor a todos os atributos filhos*/
+	width:  400px;
+	height: 400px;
+	background-color: gray;
+	color: green;
+}
+.box2{
+	width: 250px;
+	background-color: red;
+	height: inherit;/*"inherit" herda o valor da propriedasde da tag pai*/
+}
+.box span{
+	display: inline-block;
+	height: inherit;
+	width:  inherit;
+	background-color: red;
+	color: initial;/*reescreve o valor para inicial*/
+}
+/*---------------------*/
+.barra-de-carregamento{
+	background-color: lightgray;
+	border: 2px solid gray;
+	margin: 30px;
+	height: 30px;
+	width:  600px;
+	border-radius: 30px;
+}
+.progreso-de-carregamento{
+	background-color: green;
+	border-radius: inherit;
+	height: inherit;
+	width: 200px;
+}

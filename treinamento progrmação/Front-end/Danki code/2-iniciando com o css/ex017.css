@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.centro{
+	/*box-sizing: border-box;*//*não deixa o tamannho do padding ienfluenciar o tamanho da box*/
+	margin: 0 auto;
+	width: 1280px;
+	background-color: gray;
+	/*padding: 30px;*/
+}
+.artigo{/*sem o "box-sizing: border-box;" no elemento pai
+		as margens e propriedades dentro do elemento filho
+		podem varar o elemetno pai*/
+	width: 1500px;
+	margin: 50px 30px auto auto;/*margens apliacdas não pegannos elementos pais*/
+	/*margin top=50 right=30* botton=auto left=auto(tbm seve para padding)*/
+}

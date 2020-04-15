@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.lista, .lista2{
+	list-style-position: inside;
+	list-style-type: circle;
+}
+.lista > li, .lista2 > li{
+	font-size: 18px;
+	color: #4b4b4b;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+li.item3{
+	color: red;
+}
+.lista2 .item3{
+	color: green;
+}

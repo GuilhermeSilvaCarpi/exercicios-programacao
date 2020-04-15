@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	min-height: 100%;
+	background-color: gray;
+}
+div[class*="box"]{
+	margin:  50px;
+	padding: 30px;
+	background-color: lightblue;
+}
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+/*"TEM QUE SER IGUAL"
+/*vai procurar essa string dentro do atributo
+
+a[href="https://google.com"]{
+	background-color: yellow;
+}
+[href="https://google.com"]{
+	background-color: red;
+}
+a[target="blank"]{
+	background-color: blue;
+}
+a[href*="goog"]{/ache a palavra "goog em qualquer
+ lugar"
+	background-color: green;	
+}
+
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+
+/*"PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO"
+
+a[attr~="google"]{/ataca uma palavra especifica
+	em um conjunto
+	/a palavra tem q estar igual
+	background-color: gray;
+}*/
+
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+
+/*a[attr|="google"]{/*se o atributo começar com 
+	"google" e for separado por "-"
+	background-color: orange;
+}*/
+
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+
+/*a[attr^="google"]{/*seleciona um atributo que
+começa com uma string especifica
+	background-color: brown;
+}*/
+
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+
+/*a[attr$="tradutor"]{/seleciona um atributo que
+	termina com uma string especifica
+	background-color: purple;
+}*/
+
+/*================PRATICA======================*/
+
+input[type*="tex"]{
+	background-color: green;
+}
+input[type="submit"]{
+	background-color: orange;
+}

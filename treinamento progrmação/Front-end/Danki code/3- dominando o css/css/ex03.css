@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	min-height: 100%;
+}
+/*
+table{
+	width: 900px;
+	margin: 30px auto;
+	border-collapse: collapse;//bordas colidam//
+}
+table tr td{
+	border: 3px solid black;
+	margin: 2px;
+	height: 200px;
+	vertical-align: top;
+	background-color: rgb(200, 200, 200);
+}*/
+.menu-fixed{
+	/*poition*/
+	position:absolute; /*fixed ;*/
+	/*fixed: desse junto com o scrol
+	    tem com base a janela*/
+	/*absolute: permanece numa posição
+	    tem com base o documento*/
+	/*atatic: padrão*/
+	
+	left: 50px;
+	top: 300px;/*left e top tem preferencia maior q rifgt e bottton*/
+	right: 40px;
+	bottom: 20px;
+	/*box*/
+	width: 300px;
+	height: 200px;
+	background-color: #069;
+}
+.box{
+	width: 80%;
+	height: 1400px;
+	background-color: lightgray;
+	margin: 0 auto;
+}
+.box p{
+	width: 400px;
+}

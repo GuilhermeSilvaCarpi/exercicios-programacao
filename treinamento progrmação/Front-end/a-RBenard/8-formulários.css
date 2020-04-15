@@ -1,0 +1,19 @@
+﻿/*label, input{
+    display: block;}*/
+label, input[type=submit], input[type=text], textarea{
+    display: block;}
+textarea{
+    width: 300px;
+    height: 80px;}
+input[type=submit]{
+    background: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;}
+
+input[type=submit]:hover{
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px 25px;}

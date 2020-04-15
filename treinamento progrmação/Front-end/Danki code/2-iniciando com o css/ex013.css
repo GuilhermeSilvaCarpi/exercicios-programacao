@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+ol{
+	list-style-position: inside;
+}
+ol > li{
+	font-family: tahoma;
+	color: red;
+}
+ol > li > ol > li{
+	color: green;
+}

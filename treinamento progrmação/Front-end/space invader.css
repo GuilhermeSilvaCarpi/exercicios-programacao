@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+	background-color: black;
+}
+.linha{
+	background-color: transparent;
+	box-sizing: border-box;
+	width: 13px;
+	height: 1px;
+}
+.v{
+	background: green;
+}
+.t{
+	background-color: transparent;
+}
+.v, .t{
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 1px;
+	height: 1px;
+}
+.complete{
+	margin: auto auto;
+	width: 13px;
+	height: 10px;
+}

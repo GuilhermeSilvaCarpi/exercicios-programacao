@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{/*html e body*/
+	height: 100%;
+}
+.artigo{
+	background-color: rgb(200,200,200);
+	width: 100%;/*largura*/
+	height: 100%;
+	text-align: center;
+
+}
+.artigo > h1{
+	color: #069;
+	font-size: 23px;
+	font-family: "Times New Roman", Times, serif;/*aspas duplas quando a font tiver espaços*/
+	font-style: italic;
+}
+.artigo p{
+	color: #b4b4b4;
+	font-size: 17px;
+	font-family: tahoma;/*troca a font*/
+	margin-top: 12px;
+	line-height: 30px;/*espaço entre as linhas*/
+}

@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.centro{
+	box-sizing: border-box;
+	width: 900px;
+	margin: 0 auto;
+	background-color: gray;
+}
+.artigo{
+	background-color: #98bce3;
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 30px solid transparent;
+	/*padding: 0px;*/
+	display: inline-block;
+	vertical-align: top;
+	width: 205px;/*width -1 / margin +1*/
+	margin: 15px;
+	margin-right: -4px;
+}

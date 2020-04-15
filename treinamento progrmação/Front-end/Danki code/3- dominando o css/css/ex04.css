@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	min-height: 100%;
+}
+.bg{
+	margin: 20px;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	/*backgrounds*/
+	background-color: red;
+	background-image: url(../img/danki_bg.jpg);/*"../" significa volte um diretório*/
+	background-size: contain;/*largura autura*/
+	/*cover: cobgre tudo mas deixa sobrar
+	contain: cobre tudo lmitando a img
+	largura autura*/
+	background-position: 50% 50%;
+	/*quando usamos o cover a porcentagem não tem efeito*/
+	background-repeat: repeat-x;/*repetição do background*/
+	/*repeat-y, repeat-x, no-repeat*/
+}

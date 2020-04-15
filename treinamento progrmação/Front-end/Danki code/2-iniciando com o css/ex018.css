@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.centro{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 1280px;
+	background-color: gray;
+}
+.artigo{
+	display: inline-block;/*se coberem os blocos vão ficar na mesma linha*/
+	width: 640px;
+	margin-right: -4px; /*o display block acrescenta 4px*/
+	vertical-align: top;/*o display block alinha os blocos em baixo*/
+	box-sizing: border-box;
+	/*border: 10px solid rgba(255, 255, 255, 50%);*//*rgba modifica cor e transparencia(no caso trasparencia minima / e isso gera um espaçamento)*/
+	/*propriedades de borda*/
+	border-width: 10px;
+	border-radius: 30px;/*curvatura do canto da borda*/
+	border-left-style: dotted;/*borda esquerda potilhada*/
+	border-right-style: solid;/*borda direita solida*/
+	border-color: rgba(255, 0, 13, 75%);
+	outline: 10px solid blue;/*"borda pra fora" ele não aultera o elemento pai*/
+}

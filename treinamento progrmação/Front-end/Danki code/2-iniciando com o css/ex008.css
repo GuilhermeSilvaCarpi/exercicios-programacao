@@ -1,0 +1,26 @@
+*{/*isso define todos os elementos no html*/
+	margin: 0;
+	padding: 0;
+}
+div.menu{/*esse código vai ter mais prioridade q o de baixo pq ele é mais es pecífico */
+	width: 900px;
+	background-color: green;
+	margin: 0 auto;/*espaçamento externo (0 cima/baixo automatico esquerda/direita)*/
+	/*padding: 90px ;espaçamento interno*/
+	text-align: center;
+	margin-top: 30px;
+}
+.menu{
+	width: 400px ;
+}
+.menu > a:hover{
+	background-color: blue;
+}
+.menu > a{/*o "a" dentro da classe "manu"*/
+	font-size: 20px;
+	margin: 0px 10px; 
+	color: white;
+	text-decoration: none;
+	border-right: 4px solid orange;
+	padding-right: 20px ; 
+}

@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.artigo{
+	background-color: rgb(200,200,200);
+	padding: 40px;/*espaçamento interno*/
+	width: 1280px;/*autura*/
+	margin: 40px auto;/*espaçamentp externo*/
+	text-align: center;
+	border-radius: 30px;/*curvatura dos cantos*/
+}
+.artigo > h1{
+	color: #069;
+	font-size: 23px;
+	font-family: "Times New Roman", Times, serif;/*aspas duplas quando a font tiver espaços*/
+	font-style: italic;
+}
+.artigo p{
+	color: #b4b4b4;
+	font-size: 17px;
+	font-family: tahoma;/*troca a font*/
+	margin-top: 12px;
+	line-height: 30px;/*espaço entre as linhas*/
+}
