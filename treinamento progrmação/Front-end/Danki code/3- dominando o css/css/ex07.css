@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+.div1 {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+
+/*filhos da ul que forem li
+"de acordo com o tipo do elemento"*/
+
+ul li:nth-of-type(1) {
+    color: blue;
+    font-size: 20px;
+}
+
+
+/*filhos da ul em geral
+"de acordo com os filhos"*/
+
+ul li:nth-child(6) {
+    color: red;
+}
+
+
+/*pt 2*/
+
+.box {
+    width: 90%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.item {
+    /*a borda vai para dentro do box*/
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+
+/*ultimo dos divs dentro do box
+"pegue o ultimo do tipo div"*/
+
+.box div:last-of-type {
+    background-color: aqua;
+}
+
+.box p:last-of-type {
+    color: rgb(200, 200, 200);
+}
+
+
+/*pt 3*/
+
+.box2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+/*dentro da box2 ultima do tipo div  p*/
+
+.box2 div:last-of-type p {
+    margin-top: 30px;
+}
+
+
+/*todas as divs dentro do box um que nao forem da classe one*/
+
+.box2 div:not(.one) {
+    border-radius: 20px;
+}
