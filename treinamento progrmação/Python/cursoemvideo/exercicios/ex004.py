@@ -1,0 +1,15 @@
+#aula 6
+v = input('Digitar algo digitável para "v": ')
+print('o tipo primitivo de v é',type(v))
+
+print('v é numerico?     ',v.isnumeric())
+print('v é alfabético?   ',v.isalpha())
+print('v é alfanumérico? ',v.isalnum())
+print('v é maiúsculas?   ',v.isupper())
+print('v é minúsculas?   ',v.islower())
+print('v é capitalizada? ',v.istitle())
+print('v é espaço(s)?    ',v.isspace())
+print('v é um digto?     ',v.isdigit())
+print('v é decimal?      ',v.isdecimal())
+#print('v é "identifier"? ',v.indentifier())
+print('v é "printable"?  ',v.isprintable())

@@ -1,0 +1,9 @@
+*fatiamento
+	-uma letra
+		nome = Guilherme
+		print(nome[0]) #G
+	-multiplas letras
+		nome = Guilherme
+		print(nome[0:3]) #Gui
+
+*
