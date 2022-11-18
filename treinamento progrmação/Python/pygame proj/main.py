@@ -2,23 +2,23 @@ import pygame
 from blob import Blob
 from bixin_b import Bixin
 
-#iniciando game
+# iniciando game
 pygame.init()
 display = pygame.display.set_mode([800, 400])
 pygame.display.set_caption('meu game')
 
 running = True
 clock = pygame.time.Clock()
-#music
+# music
 pygame.mixer.music.load('data/music/song18.mp3')
 pygame.mixer.music.play(-1)
 
-#sounds
-lazer1 = pygame.mixer.Sound('data/sounds/laser1.mp3')
-lazer5 = pygame.mixer.Sound('data/sounds/laser5.mp3')
-lazer9 = pygame.mixer.Sound('data/sounds/laser9.mp3')
+# sounds
+lazer = [pygame.mixer.Sound('data/sounds/laser1.mp3'),
+         pygame.mixer.Sound('data/sounds/laser5.mp3'),
+         pygame.mixer.Sound('data/sounds/laser9.mp3')]
 
-#objects
+# objects
 objGroup = pygame.sprite.Group()
 
 player = Blob(objGroup)
@@ -28,7 +28,8 @@ x = 0
 y = 0
 v = 10
 
-#game loop
+
+# game loop
 
 
 def render():
@@ -46,17 +47,17 @@ def update():
 
 
 while running:
-    #inputs
+    # inputs
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
             break
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_q:
-                lazer1.play()
+                lazer[0].play()
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_q:
-                lazer9.play()
+                lazer[2].play()
         # pressed keys
         pressed_keys = pygame.key.get_pressed()
         if pressed_keys[pygame.K_w]:
