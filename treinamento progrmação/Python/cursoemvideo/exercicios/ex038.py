@@ -1,9 +1,9 @@
-#aula 12
-#inputs
+# aula 12
+# inputs
 n1 = float(input('um número: '))
 n2 = float(input('outro número: '))
 
-#ifs
+# ifs
 if n1 > n2:
     print('o primeiro número digitado é maior que o segundo')
 elif n1 < n2:
