@@ -8,10 +8,8 @@ for i in range(1, n + 1):
         print('\033[33m({})'.format(i), end=' ')
     else:
         print('\033[34m{}'.format(i), end=' ')
-else:
-    print()
 
-print('\033[mO número {} foi divisível \033[33m{}\033[m vezes'.format(n, divisões))
+print('\n\033[mO número {} foi divisível \033[33m{}\033[m vezes'.format(n, divisões))
 if divisões == 2:
     print('E por isso É PRIMO')
 else:
