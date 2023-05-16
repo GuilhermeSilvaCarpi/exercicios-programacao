@@ -30,7 +30,7 @@ def função():
 função()
 print('"x" em escopo global:', x)
 
-# Palavra chamee "global"
+# Palavra chave "global"
 '''
 Com essa palavra chave é possível criar ou editar uma variável
 global dentro de um escopo local.
